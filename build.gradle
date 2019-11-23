@@ -73,6 +73,11 @@ configurations{
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile(group: 'bukkit', name: 'bukkit', version: '1.12.2-R0.1')
+    compile 'com.conversantmedia:disruptor:1.2.14'
+    compile 'com.googlecode.json-simple:json-simple:1.1.1'
+    compile 'commons-lang:commons-lang:2.6'
+    compile 'jline:jline:2.13'
+    compile 'mysql:mysql-connector-java:5.1.46'
     compile 'net.md-5:SpecialSource:1.8.5'
     compile 'net.md-5:bungeecord-chat:1.12-SNAPSHOT'
     compile 'net.minecraft:launchwrapper:1.12'
